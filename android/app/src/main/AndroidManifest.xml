@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
 
    <application
-        android:label="6Valley Vendor"
+        android:label="Bendor"
        android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
        android:requestLegacyExternalStorage="true"

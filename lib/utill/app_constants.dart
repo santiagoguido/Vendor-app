@@ -2,7 +2,7 @@ import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
 import 'package:sixvalley_vendor_app/utill/images.dart';
 
 class AppConstants {
-  static const String appName = 'Vendor App';
+  static const String appName = 'Badesa';
   static const String appVersion = '14.7';
   static const String companyName = '6Valley';
   static const String baseUrl = 'Your_Base_URL';
