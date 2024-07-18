@@ -5,7 +5,7 @@ class AppConstants {
   static const String appName = 'Badesa';
   static const String appVersion = '14.7';
   static const String companyName = '6Valley';
-  static const String baseUrl = 'Your_Base_URL';
+  static const String baseUrl = 'https://busy-kilby.74-208-46-134.plesk.page';
   static const String loginUri = '/api/v3/seller/auth/login';
   static const String configUri = '/api/v1/config';
   static const String sellerUri = '/api/v3/seller/seller-info';

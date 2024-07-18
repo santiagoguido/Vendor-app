@@ -24,25 +24,27 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>http</string>
+		<string>https</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>http</string>
-        <string>https</string>
-    </array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Need BLE permission for getting printers</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Need BLE permission for getting printers</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app need camera access for taking photo for user profile picture.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Need Location permission for print invoice</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app needs access to location to manage delivery address when add a new address.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This app need photo gallery access for taking photo for user profile picture.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Need Location permission for print invoice</string>
-    <key>NSBluetoothAlwaysUsageDescription</key>
-    <string>Need BLE permission for getting printers</string>
-    <key>NSBluetoothPeripheralUsageDescription</key>
-    <string>Need BLE permission for getting printers</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
@@ -53,21 +55,19 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>
-    	<array>
-    		<string>UIInterfaceOrientationPortrait</string>
-    		<string>UIInterfaceOrientationLandscapeLeft</string>
-    		<string>UIInterfaceOrientationLandscapeRight</string>
-    	</array>
-    	<key>UISupportedInterfaceOrientations~ipad</key>
-    	<array>
-    		<string>UIInterfaceOrientationPortrait</string>
-    		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-    		<string>UIInterfaceOrientationLandscapeLeft</string>
-    		<string>UIInterfaceOrientationLandscapeRight</string>
-    	</array>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
 </dict>
 </plist>
