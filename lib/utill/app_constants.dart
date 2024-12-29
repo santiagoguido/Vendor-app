@@ -2,7 +2,7 @@ import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
 import 'package:sixvalley_vendor_app/utill/images.dart';
 
 class AppConstants {
-  static const String appName = 'Badesa';
+  static const String appName = 'Badesa Vendedor';
   static const String appVersion = '1.0';
   static const String companyName = 'Grupo Badesa';
   static const String baseUrl = 'https://adoring-pascal.74-208-46-134.plesk.page';
