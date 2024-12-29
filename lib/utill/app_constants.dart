@@ -2,9 +2,9 @@ import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
 import 'package:sixvalley_vendor_app/utill/images.dart';
 
 class AppConstants {
-  static const String appName = 'Vendor App';
-  static const String appVersion = '14.7';
-  static const String companyName = '6Valley';
+  static const String appName = 'Badesa';
+  static const String appVersion = '1.0';
+  static const String companyName = 'Grupo Badesa';
   static const String baseUrl = 'https://adoring-pascal.74-208-46-134.plesk.page';
   static const String loginUri = '/api/v3/seller/auth/login';
   static const String configUri = '/api/v1/config';
